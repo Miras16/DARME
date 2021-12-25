@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<link rel="stylesheet" href="./laptop.css" />
+		
+		<script src="laptop.js"></script>
+		<title>Laptops</title>
+	</head>
+	<body>
+	
+
+		<main>
+			
+			<div class="test_header">
+				<div class="test_header_fixed">
+					<div class="profile">
+						<div class="user_profile">
+							
+							<p id="username_profile"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="header">
+				<div class="header_fixed">
+				<div class="logo">
+					<div class="logo_image">
+						<img src="Images/logo2 копия.png" alt="logo_image" width="100px">
+					</div>
+					<div class="logo_text">
+						
+					</div>
+				</div>
+		
+				<div class="hamburger_menu">
+					<label id="menu_label" style="cursor: pointer;" for="toggle_menu" onclick="hamburger_to_x()">&#9776;</label>
+				</div>
+				
+				<div class="menu">
+					<a href="#" style="text-decoration: none;"><div id="home">home</div></a>
+					<a href="#" style="text-decoration: none;"><div id="electronics" onmouseover="dropdown_on()" onmouseout="dropdown_off()">electronics</div></a>
+					<a href="Mobile_Phones.html" style="text-decoration: none;"><div id="mobile_phones">mobile phones</div></a>
+					<a href="laptop.html" style="text-decoration: none;"><div id="laptops">laptops</div></a>
+					<a href="accessories.html" style="text-decoration: none;"><div id="accessories">accessories</div></a>
+					<a href="About_Us.html" style="text-decoration: none;"><div id="about_us">about us</div></a>
+					<a href="Contact_Us.html" style="text-decoration: none;"><div id="contact_us">contact us</div></a>
+					
+					<p id="x_menu" onclick="x_to_hamburger()">Ⅹ</p>
+				</div>
+				<div class="dropdown_electronic">
+					<div class="electronic_parts" onmouseover="dropdown_on()" onmouseout="dropdown_off()">
+					  <a href="Mobile_Phones.html">Mobile Phones</a>
+				<a href="laptop.html">Laptops</a>
+				<a href="accessories.html">Accessories</a>
+					</div>
+				  </div>
+				</div>
+			</div>
+		
+			
+			<section class="presentation">
+				<div class="introduction">
+					<div class="intro-text">
+						<h1>How to choose the right laptop for you</h1>
+						<p>
+							Owning a laptop is an essential to most people today. Whether you're using the laptop for leisure, school or work, you’ll want to do your research to find the best laptop computer for your lifestyle and budget.
+                        Here are a few things to consider before you buy a new laptop.
+						</p>
+					</div>
+					
+				</div>
+				<div class="cover">
+					<img src="Images/matebook2.png" alt="matebook" />
+				</div>
+			</section>
+
+			<img class="big-circle" src="Images/big-eclipse.svg" alt="" />
+			<img class="medium-circle" src="Images/mid-eclipse.svg" alt="" />
+			<img class="small-circle" src="Images/small-eclipse.svg" alt="" />
+
+			
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="block">
+							<img src="Images/image1.jpeg" alt="Sizeandweight" class="block_img">
+							<div class="block_title">1. Size and weight</div>
+							<div class="block_text">If portability is what you want, aim for a laptop that’s between 12” to 14” in size. A larger laptop - between 15” to 17” - would be heavier and may not be comfortable to bring around with you.</div>
+							
+						</div>
+					</div>
+					<div class="col">
+						<div class="block">
+							<img src="Images/image2.jpeg" alt="processor" class="block_img">
+							<div class="block_title">2. Processor</div>
+							<div class="block_text">An Intel® Core™ i5 processor will work great for most users, while an i7 processor, used in most high-end and gaming laptops, gives more power and is best for people using high-demand applications or graphic-heavy games.</div>
+							
+						</div>
+					</div>
+					<div class="col">
+						<div class="block">
+							<img src="Images/image3.jpeg" alt="ram" class="block_img">
+							<div class="block_title">3. RAM</div>
+							<div class="block_text">You will need a minimum of 4GB of RAM to run basic programs on your computer. For most people, 4GB means that your computer will slow down dramatically if you have too many tabs or programs open at once.</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="ourselect">
+
+             <div class="select_title"> Our selection of the best laptops</div>
+			
+			 <div class="tab">
+				 <div class="knopka1">  
+					
+				<button class="tablinks show" onclick="openCity(event, 'Bizlap')" id="defaultOpen" >Business laptops</button> </div>
+				<div class="knopka2"> 
+				<button class="tablinks" onclick="openCity(event, 'Gamelap')">Gaming laptops</button>
+			</div>
+			  
+			  
+			  <!-- Tab content -->
+			  <div id="Bizlap" class="tabcontent qwert">
+				<div class="nout1"> 
+					<div class="card">
+					  <div class="content">
+						<div class="front">
+						 <img src="Images/laptop1.jpg">
+						 
+						 <div class="rating-mini">
+							
+							<span class="active"></span>	
+							<span class="active"></span>    
+							<span class="active"></span>  
+							<span class="active"></span>  
+							<span class="active"></span> 
+						
+						</div>
+						
+						 <h1 class="name"> Dell XPS 15 (2020)</h1>
+						 <h5 class="plusses"> Reasons to buy</h5>
+						 <h3 class="plus1">  + Beautiful display</h3>
+						 <h3 class="plus2"> + Amazing speakers</h3>
+						 
+						 
+						</div>
+						<div class="back">
+						
+							<table id="customers">
+									<h1 class="harakteristika"> Specifications</h1>
+								<tr>
+								  <td>CPU:</td>
+								  <td>10th Gen Intel Core i5 – i7</td>			  
+								</tr>
+								<tr>
+								  <td>Graphics:</td>
+								  <td>Intel UHD Graphics – NVIDIA GeForce GTX 1650 Ti</td>							
+								</tr>
+								<tr>
+								  <td>RAM:</td>
+								  <td>8GB – 64GB</td>
+								 
+								</tr>
+								<tr>
+								  <td>Screen:</td>
+								  <td>15.6" FHD+ (1920 x 1200) InfinityEdge Non-Touch Anti-Glare 500-Nit – 15.6" UHD+ (3840 x 2400) InfinityEdge Touch Anti-Reflective 500-Nit Display</td>
+								  </tr>
+								  <tr>
+									<td>Storage:</td>
+									<td>256GB – 2TB M.2 PCIe NVMe</td>
+									</tr>
+									<tr>
+										<td>Operating System:</td>
+										<td>Windows 10</td>
+										</tr>
+							  </table>
+						</div>
+					  </div>
+					</div>
+				</div>
+					<div class="nout2"> 
+						<div class="card">
+					  <div class="content">
+						<div class="front">
+						 <img src="Images/laptop2.jpg">
+						 
+						 <div class="rating-mini">
+							
+							<span class="active"></span>	
+							<span class="active"></span>    
+							<span class="active"></span>  
+							<span class="active"></span>  
+							<span class="active"></span> 
+						
+						</div>
+						
+						 <h1 class="name"> MacBook Pro (2020)</h1>
+						 <h5 class="plusses"> Reasons to buy</h5>
+						 <h3 class="plus1">  + Huge battery life</h3>
+						 <h3 class="plus2"> + Great performance that <br>can run iOS apps</h3>
+						 
+						</div>
+						<div class="back">
+						
+
+							<table id="customers">
+									<h1 class="harakteristika"> Specifications</h1>
+								<tr>
+								  <td>CPU:</td>
+								  <td>Apple M1 chip with 8‑core CPU</td>
+								  
+								</tr>
+								<tr>
+								  <td>Graphics:</td>
+								  <td>Integrated 8-core GPU</td>
+								 
+								</tr>
+								<tr>
+								  <td>RAM: </td>
+								  <td>8GB – 16GB unified memory</td>
+								 
+								</tr>
+								<tr>
+								  <td>Screen:</td>
+								  <td> 13.3-inch 2560 x 1600 LED-backlit Retina  Touch Anti-Reflective display </td>
+								  </tr>
+								  <tr>
+									<td>Storage:</td>
+									<td>256GB – 2TB SSD</td>
+									</tr>
+									<tr>
+										<td>Operating system:</td>
+										<td>Mac OS Big Sur</td>
+										</tr>
+							   
+							  </table>
+
+						</div>
+					  </div>
+					</div>
+				</div>
+				<div class="nout3"> 
+					<div class="card">
+								<div class="content">
+								<div class="front">
+								 <img src="Images/laptop3.jpg">
+											 
+							 <div class="rating-mini">
+												
+						<span class="active"></span>	
+						<span class="active"></span>    
+						<span class="active"></span>  
+						<span class="active"></span>  
+						<span class="active"></span> 
+											
+						</div>
+						
+						 <h1 class="name"> HP Elite Dragonfly G2</h1>
+						 <h5 class="plusses"> Reasons to buy</h5>
+						 <h3 class="plus1">  + Comfortable keyboard</h3>
+						 <h3 class="plus2"> + Excellent screen</h3>
+						 
+						</div>
+						<div class="back">
+						
+
+				<table id="customers">
+						<h1 class="harakteristika"> Specifications</h1>
+					<tr>
+					  <td>CPU:</td>
+					  <td>11th-generation Intel Core i3 – i7</td>
+					  
+					</tr>
+					<tr>
+					  <td>Graphics:</td>
+					  <td> Intel Iris Xe Graphics</td>
+					 
+					</tr>
+					<tr>
+					  <td>RAM: </td>
+					  <td>8GB - 32GB</td>
+					 
+					</tr>
+					<tr>
+					  <td>Screen:</td>
+					  <td>13.3-inch diagonal BrightView LED FHD, 400 nits – 13.3-inch diagonal BrightView LED 4K UHD HDR-400 550 nits</td>
+					  </tr>
+					  <tr>
+						<td>Storage:</td>
+						<td>up to 2TB SSD</td>
+						</tr>
+						<tr>
+							<td>Operating System:</td>
+							<td>Windows 10</td>
+							</tr>
+												   
+						</table>
+					
+					
+							</div>
+							</div>
+						</div>
+					
+					
+						</div>
+
+						<div class="nout4"> 
+						<div class="card">
+						 <div class="content">
+						<div class="front">
+						 <img src="Images/laptop4.jpg">
+						 
+						 <div class="rating-mini">
+							
+							<span class="active"></span>	
+							<span class="active"></span>    
+							<span class="active"></span>  
+							<span class="active"></span>  
+							<span class="active"></span> 
+						
+						</div>
+						
+						 <h1 class="name"> Asus X409FA i7 8565U</h1>
+						 <h5 class="plusses"> Reasons to buy</h5>
+						 <h3 class="plus1">  + Comfortable keyboard</h3>
+						 <h3 class="plus2"> + Beautiful screen</h3>
+						 
+						</div>
+						<div class="back">
+						
+										
+							<table id="customers">
+									<h1 class="harakteristika"> Specifications</h1>
+								<tr>
+								  <td>CPU:</td>
+								  <td>CPU: 11th-generation Intel Core i5 – i7 /AMD Ryzen 5 - 7</td>
+								  
+								</tr>
+								<tr>
+								  <td>Graphics:</td>
+								  <td>Intel Iris Xe / AMD Radeon</td>
+								 
+								</tr>
+								<tr>
+								  <td>RAM: </td>
+								  <td>8GB – 32GB</td>
+								 
+								</tr>
+								<tr>
+								  <td>Screen:</td>
+								  <td>13.5-inch PixelSense (2,256 x 1,504) touch</td>
+								  </tr>
+								  <tr>
+									<td>Storage:</td>
+									<td>256GB – 1TB SSD</td>
+									</tr>
+									<tr>
+										<td>Operating System:</td>
+										<td>Windows 10</td>
+										</tr>
+							   
+							  </table>
+
+								</div>
+							  </div>
+							</div>
+							<div class="2qatar"> 
+								<div class="nout5"> 
+							<div class="card">
+								<div class="content">
+								  <div class="front">
+								   <img src="Images/laptop5.jpg">
+								   
+								   <div class="rating-mini">
+									  
+									  <span class="active"></span>	
+									  <span class="active"></span>    
+									  <span class="active"></span>  
+									  <span class="active"></span>  
+									  <span class="active"></span> 
+								  
+								  </div>
+								  
+								   <h1 class="name"> MacBook Pro (2021)</h1>
+								   <h5 class="plusses"> Reasons to buy</h5>
+								   <h3 class="plus1">  + Brilliant performance</h3>
+								   <h3 class="plus2"> + Best screen on a laptop</h3>
+								   
+								  </div>
+								  <div class="back">
+								  
+			
+									  <table id="customers">
+											  <h1 class="harakteristika"> Specifications</h1>
+										  <tr>
+											<td>CPU:</td>
+											<td>Apple M1 Pro 8-core – M1 Max 10-core</td>
+											
+										  </tr>
+										  <tr>
+											<td>Graphics:</td>
+											<td>Integrated 14-core – 32-core GPU</td>
+										   
+										  </tr>
+										  <tr>
+											<td>RAM: </td>
+											<td>Up to 64GB</td>
+										   
+										  </tr>
+										  <tr>
+											<td>Screen:</td>
+											<td>14-inch Liquid Retina XDR display</td>
+											</tr>
+											<tr>
+											  <td>Storage:</td>
+											  <td>Up to 8TB</td>
+											  </tr>
+											  <tr>
+												  <td>Operating system:</td>
+												  <td>Mac OS Monterey</td>
+												  </tr>
+										 
+										</table>
+			
+			
+				
+									  </div>
+									</div>
+								</div>
+									 </div>
+										  
+								<div class="nout6"> 
+							 <div class="card">
+						<div class="content">
+						  <div class="front">
+						   <img src="Images/laptop6.jpg">
+						   
+						   <div class="rating-mini">
+							  
+							  <span class="active"></span>	
+							  <span class="active"></span>    
+							  <span class="active"></span>  
+							  <span class="active"></span>  
+							  <span class="active"></span> 
+						  
+						  </div>
+						  
+						   <h1 class="name"> ACER SWIFT 3</h1>
+						   <h5 class="plusses"> Reasons to buy</h5>
+						   <h3 class="plus1">  + Keyboards and <br>trackpad are good</h3>
+						   <h3 class="plus2"> + Excellent screen</h3>
+						   
+						  </div>
+						  <div class="back">
+						  
+	
+							  <table id="customers">
+									  <h1 class="harakteristika"> Specifications</h1>
+								  <tr>
+									<td>CPU:</td>
+									<td>Intel Core i3-Intel Core i7</td>
+									
+								  </tr>
+								  <tr>
+									<td>Graphics:</td>
+									<td> Intel HD Graphics 620 or AMD Radeon Vega 8</td>
+								   
+								  </tr>
+								  <tr>
+									<td>RAM: </td>
+									<td>4GB - 8GB</td>
+								   
+								  </tr>
+								  <tr>
+									<td>Screen:</td>
+									<td>14 inch FHD (1920 x 1080) ComfyView IPS - 15.6 inch FHD (1920 x 1080)</td>
+									</tr>
+									<tr>
+									  <td>Storage:</td>
+									  <td>128GB - 1TB </td>
+									  </tr>
+									  <tr>
+										  <td>Operating system:</td>
+										  <td>Window 10</td>
+										  </tr>
+								 
+											</table>
+				
+									  </div>
+									</div>
+								  </div>
+							  </div>
+							  <div class="nout7"> 
+								  <div class="card">
+								<div class="content">
+								  <div class="front">
+								   <img src="Images/laptop7.jpg">
+								   
+								   <div class="rating-mini">
+									  
+									  <span class="active"></span>	
+									  <span class="active"></span>    
+									  <span class="active"></span>  
+									  <span class="active"></span>  
+									  <span class="active"></span> 
+								  
+								  </div>
+								  
+								   <h1 class="name"> ThinkPad X1 </h1>
+								   <h5 class="plusses"> Reasons to buy</h5>
+								   <h3 class="plus1"> + Amazing display option</h3>
+								   <h3 class="plus2"> + Thin and lightweight</h3>
+								   
+								  </div>
+								  <div class="back">
+								  
+			
+									  <table id="customers">
+											  <h1 class="harakteristika"> Specifications</h1>
+										  <tr>
+											<td>CPU:</td>
+											<td>Up to 10ᵗʰ Gen Intel® Core™ i7-10610U Processor with vPro™</td>
+											
+										  </tr>
+										  <tr>
+											<td>Graphics:</td>
+											<td>Integrated Intel® UHD Graphics</td>
+										   
+										  </tr>
+										  <tr>
+											<td>RAM: </td>
+											<td>Up to 16 GB LPDDR3 2133MHz (Soldered)</td>
+										   
+										  </tr>
+										  <tr>
+											<td>Screen:</td>
+											<td>Up to 14.0" UHD (3840 x 2160), touchscreen, anti-glare, glossy.</td>
+											</tr>
+											<tr>
+											  <td>Storage:</td>
+											  <td>256GB – 2TB M.2 PCIe NVMe</td>
+											  </tr>
+											  <tr>
+												  <td>Operating system:</td>
+												  <td>Up to Windows 10 Pro</td>
+												  </tr>
+										 
+								  </table>
+															  
+															  
+										  </div>
+										</div>
+									  </div>
+					
+					
+								  </div>
+
+								  <div class="nout8"> 
+									<div class="card">
+							  <div class="content">
+								<div class="front">
+									<img src="Images/laptop8.jpg">
+								 
+								 <div class="rating-mini">
+									
+									<span class="active"></span>	
+									<span class="active"></span>    
+									<span class="active"></span>  
+									<span class="active"></span>  
+									<span class="active"></span> 
+								
+								</div>
+								
+								 <h1 class="name"> ASUS VivoBook K571</h1>
+								 <h5 class="plusses"> Reasons to buy</h5>
+								 <h3 class="plus1">  + Wide-view display</h3>
+								 <h3 class="plus2"> + 120Hz refresh rate,</h3>
+															 
+								</div>
+								<div class="back">
+								
+		  
+									<table id="customers">
+											<h1 class="harakteristika"> Specifications</h1>
+										<tr>
+										  <td>CPU:</td>
+										  <td>2.6GHz Intel Core i7-10750H</td>
+										  
+										</tr>
+										<tr>
+										  <td>Graphics:</td>
+										  <td>4GB NVIDIA GeForce GTX 1650</td>
+										 
+										</tr>
+										<tr>
+										  <td>RAM: </td>
+										  <td>16GB</td>
+										 
+										</tr>
+										<tr>
+										  <td>Screen:</td>
+										  <td>15.6-inch FHD IPS (1920 x 1080)</td>
+										  </tr>
+										  <tr>
+											<td>Storage:</td>
+											<td>256GB SSD + 1TB HDD</td>
+											</tr>
+											<tr>
+												<td>Operating system:</td>
+												<td>Windows 10 Pro</td>
+												</tr>
+									   
+								  </table>
+
+								  </div>
+								  </div>
+</div>
+					  </div>
+									  
+
+													  
+					</div>
+				  </div>									
+													  
+			</div>
+			
+			<div id="Gamelap" class="tabcontent">
+			  
+			  <div class="nout9"> 
+			  <div class="card">
+				  <div class="content">
+					<div class="front">
+						<img src="Images/laptop9.jpg">
+					 
+					 <div class="rating-mini">
+						
+						<span class="active"></span>	
+						<span class="active"></span>    
+						<span class="active"></span>  
+						<span class="active"></span>  
+						<span class="active"></span> 
+					
+					</div>
+					
+					 <h1 class="name"> Asus Rog ZEPHYRUS G15</h1>
+					 <h5 class="plusses"> Reasons to buy</h5>
+					 <h3 class="plus1">  + High performance</h3>
+					 <h3 class="plus2"> + Price</h3>
+					 
+					</div>
+					<div class="back">
+					
+
+						<table id="customers">
+								<h1 class="harakteristika"> Specifications</h1>
+							<tr>
+							  <td>CPU:</td>
+							  <td>AMD Ryzen 7 5800H – 9 5900HS</td>
+							  
+							</tr>
+							<tr>
+							  <td>Graphics:</td>
+							  <td>Nvidia GeForce RTX 3060 – 3080</td>
+							 
+							</tr>
+							<tr>
+							  <td>RAM: </td>
+							  <td>up to 32 GB</td>
+							 
+							</tr>
+							<tr>
+							  <td>Screen:</td>
+							  <td>15.6-inch QHD (1440p, 165Hz), 3ms response, 300 nits brightness</td>
+							  </tr>
+							  <tr>
+								<td>Storage:</td>
+								<td>1TB</td>
+								</tr>
+								<tr>
+									<td>Operating system:</td>
+									<td>Windows</td>
+									</tr>
+						   
+						  </table>
+
+
+
+
+
+
+
+
+					</div>
+				  </div>
+				</div>
+</div>
+<div class="nout10"> 
+<div class="card">
+					<div class="content">
+					  <div class="front">
+					   <img src="Images/laptop10.jpg">
+					   
+					   <div class="rating-mini">
+						  
+						  <span class="active"></span>	
+						  <span class="active"></span>    
+						  <span class="active"></span>  
+						  <span class="active"></span>  
+						  <span class="active"></span> 
+					  
+					  </div>
+					  
+					   <h1 class="name"> ASUS TUF DASH F15</h1>
+					   <h5 class="plusses"> Reasons to buy</h5>
+					   <h3 class="plus1">  + Extremely thin <br>and light gaming laptop</h3>
+					   <h3 class="plus2"> + High gaming performance</h3>
+					   
+					  </div>
+					  <div class="back">
+					  
+
+						  <table id="customers">
+								  <h1 class="harakteristika"> Specifications</h1>
+							  <tr>
+								<td>CPU:</td>
+								<td>up to  Intel Core i7-11375H</td>
+								
+							  </tr>
+							  <tr>
+								<td>Graphics:</td>
+								<td>up to Nvidia GeForce RTX 3070</td>
+							   
+							  </tr>
+							  <tr>
+								<td>RAM: </td>
+								<td>16 GB DDR4-3200 </td>
+							   
+							  </tr>
+							  <tr>
+								<td>Screen:</td>
+								<td>15.6 inch IPS WQHD antiglare, 165Hz & Adaptive Sync</td>
+								</tr>
+								<tr>
+								  <td>Storage:</td>
+								  <td>500GB-1 TB</td>
+								  </tr>
+								  <tr>
+									  <td>Operating system:</td>
+									  <td>Windows 10</td>
+									  </tr>
+							 
+							</table>
+
+					  </div>
+					</div>
+				  </div>
+			  </div>
+			  <div class="nout11"> 
+				  <div class="card">
+							  <div class="content">
+							  <div class="front">
+								<img src="Images/laptop11.jpg">
+										   
+						   <div class="rating-mini">
+											  
+					  <span class="active"></span>	
+					  <span class="active"></span>    
+					  <span class="active"></span>  
+					  <span class="active"></span>  
+					  <span class="active"></span> 
+										  
+					  </div>
+					  
+					   <h1 class="name"> Acer Nitro 5</h1>
+					   <h5 class="plusses"> Reasons to buy</h5>
+					   <h3 class="plus1">  + Design and many ports</h3>
+					   <h3 class="plus2"> + Incredible battery life</h3>
+					   
+					  </div>
+					  <div class="back">
+					  
+
+			  <table id="customers">
+					  <h1 class="harakteristika"> Specifications</h1>
+				  <tr>
+					<td>CPU:</td>
+					<td>AMD Ryzen 5 5900HX-AMD Ryzen 9</td>
+					
+				  </tr>
+				  <tr>
+					<td>Graphics:</td>
+					<td>NVIDIA GeForce GTX 1650- NVIDIA GeForce RTX 3050</td>
+				   
+				  </tr>
+				  <tr>
+					<td>RAM: </td>
+					<td>8GB-32GB</td>
+				   
+				  </tr>
+				  <tr>
+					<td>Screen:</td>
+					<td>15.6-inch Full HD (1,920 x 1,080)</td>
+					</tr>
+					<tr>
+					  <td>Storage:</td>
+					  <td>500GB-2TB</td>
+					  </tr>
+					  <tr>
+						  <td>Operating system:</td>
+						  <td>Windows 10</td>
+						  </tr>
+												 
+					  </table>
+				  
+				  
+						  </div>
+						  </div>
+					  </div>
+				  
+				  
+					  </div>
+
+					  <div class="nout12"> 
+					  <div class="card">
+					   <div class="content">
+					  <div class="front">
+						<img src="Images/laptop12.jpg">
+					   
+					   <div class="rating-mini">
+						  
+						  <span class="active"></span>	
+						  <span class="active"></span>    
+						  <span class="active"></span>  
+						  <span class="active"></span>  
+						  <span class="active"></span> 
+					  
+					  </div>
+					  
+					   <h1 class="name"> HP Victus 16</h1>
+					   <h5 class="plusses"> Reasons to buy</h5>
+					   <h3 class="plus1">  + Stunning design</h3>
+					   <h3 class="plus2"> + Excellent battery life</h3>
+					   
+					  </div>
+					  <div class="back">
+					  
+									  
+						  <table id="customers">
+								  <h1 class="harakteristika"> Specifications</h1>
+							  <tr>
+								<td>CPU:</td>
+								<td>AMD Ryzen 5 5600H-AMD Ryzen 7</td>
+								
+							  </tr>
+							  <tr>
+								<td>Graphics:</td>
+								<td>NVIDIA GeForce RTX 3050</td>
+							   
+							  </tr>
+							  <tr>
+								<td>RAM: </td>
+								<td>16GB-32GB</td>
+							   
+							  </tr>
+							  <tr>
+								<td>Screen:</td>
+								<td>16-inch, 1920 x 1200p, IPS touchscreen, 400 nit</td>
+								</tr>
+								<tr>
+								  <td>Storage:</td>
+								  <td>512GB</td>
+								  </tr>
+								  <tr>
+									  <td>Operating system:</td>
+									  <td>Windows </td>
+									  </tr>
+							 
+							</table>
+
+							  </div>
+							</div>
+						  </div>
+						  <div class="2qatar"> 
+							  <div class="nout13"> 
+						  <div class="card">
+							  <div class="content">
+								<div class="front">
+									<img src="Images/laptop13.jpg">
+								 
+								 <div class="rating-mini">
+									
+									<span class="active"></span>	
+									<span class="active"></span>    
+									<span class="active"></span>  
+									<span class="active"></span>  
+									<span class="active"></span> 
+								
+								</div>
+								
+								 <h1 class="name"> MSI GE76 Raider</h1>
+								 <h5 class="plusses"> Reasons to buy</h5>
+								 <h3 class="plus1">  + 360 HZ screen</h3>
+								 <h3 class="plus2"> + Excellent performance</h3>
+								 
+								</div>
+								<div class="back">
+								
+		  
+									<table id="customers">
+											<h1 class="harakteristika"> Specifications</h1>
+										<tr>
+										  <td>CPU:</td>
+										  <td>11th generation Intel Core i5 – i7</td>
+										  
+										</tr>
+										<tr>
+										  <td>Graphics:</td>
+										  <td>Nvidia GeForce RTX 3080</td>
+										 
+										</tr>
+										<tr>
+										  <td>RAM: </td>
+										  <td>16GB-32GB</td>
+										 
+										</tr>
+										<tr>
+										  <td>Screen:</td>
+										  <td>17.3 inches, 1920 x 1080, 360 Hz</td>
+										  </tr>
+										  <tr>
+											<td>Storage:</td>
+											<td>1TB-2TB</td>
+											</tr>
+											<tr>
+												<td>Operating system:</td>
+												<td>Windows 10</td>
+												</tr>
+									   
+									  </table>
+		  
+		  
+			  
+									</div>
+								  </div>
+							  </div>
+								   </div>
+										
+							  <div class="nout14"> 
+						   <div class="card">
+					  <div class="content">
+						<div class="front">
+							<img src="Images/laptop14.jpg">
+						 
+						 <div class="rating-mini">
+							
+							<span class="active"></span>	
+							<span class="active"></span>    
+							<span class="active"></span>  
+							<span class="active"></span>  
+							<span class="active"></span> 
+						
+						</div>
+						
+						 <h1 class="name"> Acer Predator Triton 500</h1>
+						 <h5 class="plusses"> Reasons to buy</h5>
+						 <h3 class="plus1">  + Extremely powerful</h3>
+						 <h3 class="plus2"> + Surprisingly long battery life</h3>
+						 
+						</div>
+						<div class="back">
+						
+  
+							<table id="customers">
+									<h1 class="harakteristika"> Specifications</h1>
+								<tr>
+								  <td>CPU:</td>
+								  <td>up to Intel Core i7-9750H</td>
+								  
+								</tr>
+								<tr>
+								  <td>Graphics:</td>
+								  <td>Nvidia GeForce RTX 2080</td>
+								 
+								</tr>
+								<tr>
+								  <td>RAM: </td>
+								  <td>16GB – 32GB</td>
+								 
+								</tr>
+								<tr>
+								  <td>Screen:</td>
+								  <td>15.6" Full HD (1920 x 1080) 16:9 IPS</td>
+								  </tr>
+								  <tr>
+									<td>Storage:</td>
+									<td> up to 1TB SSD</td>
+									</tr>
+									<tr>
+										<td>Operating system:</td>
+										<td>Windows </td>
+										</tr>
+							   
+										  </table>
+			  
+									</div>
+								  </div>
+								</div>
+							</div>
+							<div class="nout15"> 
+								<div class="card">
+							  <div class="content">
+								<div class="front">
+									<img src="Images/laptop15.jpg">
+								 
+								 <div class="rating-mini">
+									
+									<span class="active"></span>	
+									<span class="active"></span>    
+									<span class="active"></span>  
+									<span class="active"></span>  
+									<span class="active"></span> 
+								
+								</div>
+								
+								 <h1 class="name"> Acer Aspire 7 Gaming</h1>
+								 <h5 class="plusses"> Reasons to buy</h5>
+								 <h3 class="plus1">  + Excellent display</h3>
+								 <h3 class="plus2"> + Fantastic keyboard</h3>
+								 
+								</div>
+								<div class="back">
+								
+		  
+									<table id="customers">
+											<h1 class="harakteristika"> Specifications</h1>
+										<tr>
+										  <td>CPU:</td>
+										  <td>Intel Core i7 9750H</td>
+										  
+										</tr>
+										<tr>
+										  <td>Graphics:</td>
+										  <td>NVIDIA GeForce GTX 1650</td>
+										 
+										</tr>
+										<tr>
+										  <td>RAM: </td>
+										  <td>16GB-32GB</td>
+										 
+										</tr>
+										<tr>
+										  <td>Screen:</td>
+										  <td>15.6 inches 1920x1080 Full HD</td>
+										  </tr>
+										  <tr>
+											<td>Storage:</td>
+											<td>512GB-1TB</td>
+											</tr>
+											<tr>
+												<td>Operating system:</td>
+												<td>Windows</td>
+												</tr>
+									   
+								</table>
+															
+															
+										</div>
+									  </div>
+									</div>
+				  
+				  
+								</div>
+
+								<div class="nout16"> 
+									<div class="card">
+							  <div class="content">
+								<div class="front">
+								 <img src="Images/laptop16.jpg">
+								 
+								 <div class="rating-mini">
+									
+									<span class="active"></span>	
+									<span class="active"></span>    
+									<span class="active"></span>  
+									<span class="active"></span>  
+									<span class="active"></span> 
+								
+								</div>
+								
+								 <h1 class="name"> Lenovo Legion 5 </h1>
+								 <h5 class="plusses"> Reasons to buy</h5>
+								 <h3 class="plus1">  + Powerful CPU</h3>
+								 <h3 class="plus2"> +  Accurate screen</h3>
+															 
+								</div>
+								<div class="back">
+								
+		  
+									<table id="customers">
+											<h1 class="harakteristika"> Specifications</h1>
+										<tr>
+										  <td>CPU:</td>
+										  <td>2.6 GHz Intel Core i7-10750H Six-Core</td>
+										  
+										</tr>
+										<tr>
+										  <td>Graphics:</td>
+										  <td> NVIDIA GeForce RTX 3060</td>
+										 
+										</tr>
+										<tr>
+										  <td>RAM: </td>
+										  <td>16GB DDR4 RAM </td>
+										 
+										</tr>
+										<tr>
+										  <td>Screen:</td>
+										  <td>15.6" 1920 x 1080 144 Hz FHD Display</td>
+										  </tr>
+										  <tr>
+											<td>Storage:</td>
+											<td>1TB M.2 NVMe SSD</td>
+											</tr>
+											<tr>
+												<td>Operating system:</td>
+												<td>Windows 10 Pro</td>
+												</tr>
+									   
+								  </table>
+
+								  </div>
+								  </div>
+</div>
+					  </div>
+									  
+
+													  
+					</div>
+				  </div>									
+			  </div>
+			  
+		
+			
+
+
+			 
+			</div>
+
+	
+
+			<div class="footer">
+				<div class="logo_footer">
+					<div class="logo_image_footer">
+					<a><img src="Images/logo2 копия.png" alt="logo_image" width="100px"></a>
+				</div>
+				
+				</div>
+		
+				<div class="column_1_footer">
+					<a href="condition.html" style="text-decoration: none; color: #F0F0F0"><div>Home</div></a>
+					<a href="Electronics.html" style="text-decoration: none; color: #F0F0F0"><div>Electronics</div></a>
+					<a href="Mobile_Phones.html" style="text-decoration: none; color: #F0F0F0;"><div>Mobile Phones</div></a>
+					<a href="laptop.html" style="text-decoration: none; color: #F0F0F0;"><div>Laptops</div></a>
+					<a href="accessories.html" style="text-decoration: none; color: #F0F0F0;"><div>Accessories</div></a>
+				</div>
+		
+				<div class="column_2_footer">
+					
+					<a href="About_Us.html" style="text-decoration: none; color: #F0F0F0;"><div>About us</div></a>
+					<a href="Contact_Us.html" style="text-decoration: none; color: #F0F0F0;"><div>Contact us</div></a>
+					<a href="Feedback.html" style="text-decoration: none; color: #F0F0F0;"><div>Feedback</div></a>
+				</div>
+		
+				<div class="column_3_footer">
+					<div class="column_3_div12">address</div>
+					<p>Almaty, Kazakhstan</p>
+					<div class="column_3_div12">phone</div>
+					<p>+7 747 343 31 70</p>
+					<div class="column_3_div12">email</div>
+					<p>darmetech.gmail.com</p>
+				</div>
+		
+				<div class="copyright_footer">
+					<div>© 2021 DARME <a href="#" style="text-decoration: none;">Privacy Policy</a></div>
+				</div>
+			</div>
+
+
+
+
+
+
+		</main>
+	</body>
+</html>

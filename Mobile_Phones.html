@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobile_phones</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style_mobile.css">
+</head>
+<body>
+	<div class="popup">
+		<div class="popup-content">
+			<img onclick="close_popup()" class="close_icon" src="Images/x.jpg" alt="close_icon" width="6%">
+			<img id="popup_image" src="Images/D.jpg" alt="darme_logo" width="20%">
+			<input id="username" type="text" name="username" placeholder="Username">
+			<input id="password" type="password" name="password" placeholder="Password">
+			<button onclick="login(username.value)" class="btn btn-outline-dark">Sign In</button>
+		</div>
+	</div>
+	<div class="test_header">
+		<div class="test_header_fixed">
+			<div class="profile">
+				<div class="user_profile">
+					<img id="profile_image" src="https://th.bing.com/th/id/OIP.8pQGc1uvCGFkeniunEv1rwHaHa?w=182&h=182&c=7&r=0&o=5&pid=1.7" alt="profile_image">
+					<p id="username_profile"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="header">
+		<div class="header_fixed">
+		<div class="logo">
+			<div class="logo_image">
+				<img src="Images/logo2 копия.png" alt="logo_image" width="100px">
+			</div>
+			<div class="logo_text">
+				
+			</div>
+		</div>
+
+		<div class="hamburger_menu">
+			<label id="menu_label" style="cursor: pointer;" for="toggle_menu" onclick="hamburger_to_x()">&#9776;</label>
+		</div>
+		<input type="checkbox" id="toggle_menu">
+		<div class="menu">
+			<a href="condition.html" style="text-decoration: none;"><div id="home">home</div></a>
+			<a href="electronics.html" style="text-decoration: none;"><div id="electronics" onmouseover="dropdown_on()" onmouseout="dropdown_off()">electronics</div></a>
+			<a href="Mobile_Phones.html" style="text-decoration: none;"><div id="mobile_phones">mobile phones</div></a>
+			<a href="laptop.html" style="text-decoration: none;"><div id="laptops">laptops</div></a>
+			<a href="Accessories.html" style="text-decoration: none;"><div id="accessories">accessories</div></a>
+			<a href="About_Us.html" style="text-decoration: none;"><div id="about_us">about us</div></a>
+			<a href="Contact_Us.html" style="text-decoration: none;"><div id="contact_us">contact us</div></a>
+
+		</div>
+		<div class="dropdown_electronic">
+			<div class="electronic_parts" onmouseover="dropdown_on()" onmouseout="dropdown_off()">
+			  <a href="Mobile_Phones.html">Mobile Phones</a>
+		<a href="laptop.html">Laptops</a>
+		<a href="accessories.html">Accessories</a>
+			</div>
+		  </div>
+		</div>
+	</div>
+
+		
+	<div class="text1">
+	<div class="question">
+		<h1>How to choose a mobile phone?</h1>
+	</div>
+	<div class="answer">
+		<ul>
+		<li>Decide on the class of your smartphone.</li>
+		<li>Decide which operating system you need.</li>
+		<li>Examine the display specifications.</li>
+			<li>Pay attention to the parameters of the camera.</li>
+			<li>Don't forget about the technical stuffing of your smartphone.</li>
+		</ul>
+	</div>
+	<div class="imgg">
+		<img src="Images/preview.png" alt="" >
+	</div>
+</div>
+<div class="foto"> 
+<div class="container">
+	<div class="row">
+	  <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
+		<div class="card">
+		  <div class="card-img-wrapper">
+			<img class="card-img-top" src="Images/mobiles2.jpg" alt="Card image cap">
+		  </div>
+		  <div class="card-body">
+			<h5 class="card-title">Decide on the class of your smartphone.</h5>
+			<div class="card-content">
+			  <p class="card-text">Budget smartphones are devices that don't have super-powerful features. They have a limited amount of RAM, a small screen resolution and a poor camera quality. However, you can call, chat in instant messengers, surf the Internet, take an amateur photo or video without any problems. The strong point of fashion smartphones is design. Often, models in this category are presented with different body colors, have large bright screens.</p>
+			 
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
+		<div class="card">
+		  <div class="card-img-wrapper">
+			<img class="card-img-top" src="Images/telefons.jpg" alt="Card image cap">
+		  </div>
+		  <div class="card-body">
+			<h5 class="card-title">Decide which operating system you need.</h5>
+			<p class="card-text">The downside to Android is vulnerability. Due to the openness of the source code, it is easier for hackers and viruses to find the "key" and get the personal data of users. In addition, the newest version of the system is installed, as a rule, on models that enter the market with it in the same year. Therefore, it is impossible to make an application that works equally well on all its versions.</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
+		<div class="card">
+		  <div class="card-img-wrapper">
+			<img class="card-img-top" src="Images/5f1039a43c72c.jpeg" alt="Card image cap">
+		  </div>
+		  <div class="card-body">
+			<h5 class="card-title">Examine the display specifications.</h5>
+			<p class="card-text">Everything depends on the display: ease of use, picture quality, user's eyesight, etc. The first thing they pay attention to when buying is the type of matrix, on which the image quality depends.Screen resolution is the number of pixels on the screen. The larger the screen, the more resolution you need for a clear picture. Modern devices often have HD (1280x720) and full HD (1920x1080) resolutions. But with such a resolution, the phone will "eat" a lot of energy.</p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="ekinwi"> 
+	  <div class="container">
+		<div class="row">
+			<div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
+				<div class="card">
+				  <div class="card-img-wrapper">
+					<img class="card-img-top" src="Images/5f1036fc7a3a9.jpeg" alt="Card image cap">
+				  </div>
+				  <div class="card-body">
+					<h5 class="card-title">Pay attention to the parameters of the camera.</h5>
+					<div class="card-content">
+						<p class="card-text">When evaluating a camera, many tend to look at its resolution or the number of megapixels. It is believed that the more pixels, the better the camera, but this is not entirely true! Of course, this is an important parameter: it is better to buy devices in which the camera resolution is at least 10 megapixels, but the quality of the pictures depends on other characteristics as well.</p>
+					</div>
+				  </div>
+				</div>
+			  </div>
+	  <div class="card-wrapper col-lg-4 col-md-6 col-xs-12">
+		<div class="card">
+		  <div class="card-img-wrapper">
+			<img class="card-img-top" src="Images/9061571ffb7864e051f849b961d08c1e.jpeg" alt="Card image cap">
+		  </div>
+		  <div class="card-body">
+			<h5 class="card-title">Don't forget about the technical stuffing of your smartphone.</h5>
+			<div class="card-content">
+			  <p class="card-text">The efficiency of a smartphone depends on the processor, which has 2 main parameters. The first is the number of cores, the second is the clock speed. And with that, and with the other, the same scheme works: the more, the better. At the same time, do not forget about the quality, for example 4 powerful cores will be better than 8 low-power ones! The operating time depends on the battery capacity. A capacity of 2000-3000 mA is enough for moderate use for 12 hours. If you use the device a lot and actively, then you should choose a more energy-intensive battery.</p>
+			</div>
+		  </div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+ <div class="phones">  
+  <div class="card2">
+        <div class="circle"></div>
+        <div class="content1">
+            <h2>Samsung</h2>
+            <p>Case - ceramic, moisture resistant construction.The screen is frameless. Diagonal is 6.8 inches.The AMOLED screen displays 16.78 million colors. Resolution 3200 x 1440. Octa-core processor with a frequency of 2700 MHz, RAM with a volume of 12/16 GB. the speed of work is high.Li-Ion battery with a capacity of 5000 mAh. convenient features - wireless, fast charging. 108MP + 10MP + 10MP + 12MP camera with flash, macro mode, portrait shooting and autofocus. Front camera resolution - 40 MP.</p>
+        </div>
+        <img id="tel1"src="Images/samsung.png" alt="">
+    </div>
+
+
+
+
+<div class="maininf"> 
+<div class="card22"> 
+<div class="card2">
+	<div class="circle"></div>
+	<div class="content1">
+
+		<h2>iPhone</h2>
+		<p>The body is aluminum, lightweight, durable. The screen is glass. The housing is protected from dust and moisture.
+			the operating system is iOS 15.
+			thin profile of 7.7 mm, weight - 204 grams.
+			6.1 capacitive OLED screen responds quickly to touch. Image size 2532 x 1170 with a pixel rate of 457 / in.
+			The main camera is located on the back of the smartphone and has a resolution of 12 megapixels. records video up to 3840x2160 resolution.
+			built-in Apple A15 Bionic 2990 MHz processor with 6 cores. stock of RAM 6 GB.</p>
+			
+	</div>
+	<img id="tel1"src="Images/Apple-iPhone-13.png" alt="">
+	
+</div>
+
+</div>
+<div class="card33"> 
+<div class="card2">
+	<div class="circle"></div>
+	<div class="content1">
+		<h2>Poco</h2>
+		<p class = "textes1">120Hz refresh rate, works super fast and very smooth. perfectly displays the colors of AMOLED technology. Image size at 6.67 inches diagonal is 2400 x 1080 Glass, screen stable
+			to scratches and other damage.
+		   The frame rate is 30 fps in 4K mode, and up to 960 fps in normal mode.
+		   integrated video processor Snapdragon 870 5G 8-core 2300 MHz. 6 GB of RAM.
+		   powerful lithium polymer battery with a capacity of 4520 mAh. Charged via USB-C cable.</p>
+	</div>
+	<img id="tel1"src="Images/poco .png" alt="">
+</div>
+</div>
+<div class="tels"> 
+<div class="phon1">
+	
+<h2>Advantages </h2>
+<p>Screen resolution and quality
+	Beautiful and aesthetic appearance
+	High power and speed of work</p>
+<h2>Disadvantages</h2>
+	<p>Quite a high price</p>
+</div>
+<div class="phon2">
+	
+		<h2>Advantages </h2>
+		<p>Variety of geolocation systems and wireless connections
+			Records high quality video
+			CPU</p>
+		<h2>Disadvantages</h2>
+			<p>Battery loses power quickly</p>
+</div>
+<div class="phon3">
+	
+		<h2>Advantages </h2>
+		<p>Video and photo quality
+			Works smartly
+			High battery capacity</p>
+		<h2>Disadvantages</h2>
+			<p>Heavy</p>
+</div>
+</div> 
+</div> 
+<div class="footer">
+	<div class="logo_footer">
+		<div class="logo_image_footer">
+		<a><img src="Images/logo2 копия.png" alt="logo_image" width="100px"></a>
+	</div>
+	
+	</div>
+
+	<div class="column_1_footer">
+		<a href="condition.html" style="text-decoration: none; color: #F0F0F0"><div>Home</div></a>
+		<a href="Electronics.html" style="text-decoration: none; color: #F0F0F0"><div>Electronics</div></a>
+		<a href="Mobile_Phones.html" style="text-decoration: none; color: #F0F0F0;"><div>Mobile Phones</div></a>
+		<a href="laptop.html" style="text-decoration: none; color: #F0F0F0;"><div>Laptops</div></a>
+		<a href="Accessories.html" style="text-decoration: none; color: #F0F0F0;"><div>Accessories</div></a>
+	</div>
+
+	<div class="column_2_footer">
+		
+		<a href="About_Us.html" style="text-decoration: none; color: #F0F0F0;"><div>About us</div></a>
+		<a href="Contact_Us.html" style="text-decoration: none; color: #F0F0F0;"><div>Contact us</div></a>
+		<a href="Feedback.html" style="text-decoration: none; color: #F0F0F0;"><div>Feedback</div></a>
+	</div>
+
+	<div class="column_3_footer">
+		<div class="column_3_div12">address</div>
+		<p>Almaty, Kazakhstan</p>
+		<div class="column_3_div12">phone</div>
+		<p>+7 747 343 31 70</p>
+		<div class="column_3_div12">email</div>
+		<p>darmetech.gmail.com</p>
+	</div>
+
+	<div class="copyright_footer">
+		<div>© 2021 DARME <a href="#" style="text-decoration: none;">Privacy Policy</a></div>
+	</div>
+</div>
+</div>
+
+
+    <script src="mobile.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DARME</title>
+	<link rel="stylesheet" href="About_Us.css" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Praise&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Praise&family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100&family=Praise&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100&family=Praise&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100;400&family=Praise&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,400;1,900&family=Praise&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="Images/D_icon.jpeg">
+</head>
+
+<body>
+	<div class="test_header">
+		<div class="test_header_fixed">
+			<div class="profile">
+				<div class="user_profile">
+					<img id="profile_image" src="https://th.bing.com/th/id/OIP.8pQGc1uvCGFkeniunEv1rwHaHa?w=182&h=182&c=7&r=0&o=5&pid=1.7" alt="profile_image">
+					<p id="username_profile"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="header">
+		<div class="header_fixed">
+			<div class="profile">
+				<div class="user_profile">
+					<img id="profile_image" src="https://th.bing.com/th/id/OIP.8pQGc1uvCGFkeniunEv1rwHaHa?w=182&h=182&c=7&r=0&o=5&pid=1.7" alt="profile_image">
+					<p id="username_profile"></p>
+				</div>
+			</div>
+		<div class="logo">
+			<div class="logo_image">
+				<img src="Images/DARME.png" alt="logo_image" width="100px">
+			</div>
+			<!-- <div class="logo_text">
+				<h1>DARME</h1>
+				<p>Better With Us</p>
+			</div> -->
+		</div>
+
+		<div class="hamburger_menu">
+			<label id="menu_label" style="cursor: pointer;" for="toggle_menu" onclick="hamburger_to_x()">&#9776;</label>
+		</div>
+		<input type="checkbox" id="toggle_menu">
+		<div class="menu">
+			<a href="condition.html" style="text-decoration: none;"><div id="home">home</div></a>
+			<a href="electronics.html" style="text-decoration: none;"><div id="electronics" onmouseover="dropdown_on()" onmouseout="dropdown_off()">electronics</div></a>
+			<a href="Mobile_Phones.html" style="text-decoration: none;"><div id="mobile_phones">mobile phones</div></a>
+			<a href="laptop.html" style="text-decoration: none;"><div id="laptops">laptops</div></a>
+			<a href="accessories.html" style="text-decoration: none;"><div id="accessories">accessories</div></a>
+			<a href="About_Us.html" style="text-decoration: none;"><div id="about_us">about us</div></a>
+			<a href="Contact_Us.html" style="text-decoration: none;"><div id="contact_us">contact us</div></a>
+			<!-- <div id="registration_1" onclick="popup()"><div onclick="logout()">Sign In</div></div> -->
+			<!-- <div id="registration_2" onclick="logout()">Sign Out</div> -->
+			<p id="x_menu" onclick="x_to_hamburger()">Ⅹ</p>
+		</div>
+		<div class="dropdown_electronic">
+			<div class="electronic_parts" onmouseover="dropdown_on()" onmouseout="dropdown_off()">
+			  <a href="Mobile_Phones.html">Mobile Phones</a>
+		<a href="laptop.html">Laptops</a>
+		<a href="accessories.html">Accessories</a>
+			</div>
+		  </div>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="popup">
+			<div class="popup-content">
+				<img onclick="close_popup()" class="close_icon" src="Images/closer_icon.jpeg" alt="close_icon" width="6%">
+				<img id="popup_image" src="Images/DARME.png" alt="darme_logo" width="20%">
+				<input id="username" type="text" name="username" placeholder="Username">
+				<input id="password" type="password" name="password" placeholder="Password">
+				<button onclick="login(username.value)" class="btn btn-outline-dark">Sign In</button>
+			</div>
+		</div>
+
+		<div class="content_1">
+			<img id="image_content_1" src="Images/headphone_image.jpeg" alt="headphones">
+
+			<div class="text_content_1">
+				<h1>About us</h1>
+				<p>We are one of the best electronics shop in Almaty. We hope you will consider joining us for wonderful fellowship.</p>
+			</div>
+		</div>
+
+		<div class="content_2">
+			<div class="icon_quotation">
+				<p>"</p>
+			</div>
+
+			<div class="text_1">
+				<p>
+					Since 2021, we've provided our clients with world-class electronics and we gave the best choices. You can trust in our commitment to have good electronics on your hand. We take the work out of choosing your next gadgets with our thoughtfully-planned packages.
+				</p>
+			</div>
+
+			<div class="text_2">
+				<p>
+					We work with world's best electronics brands such as iPhone, HP, Xiaomi, Acer, Huawei, Samsung. And we offer the best of them. We guess you will like and rate our commitment.
+				</p>
+			</div>
+		</div>
+
+		<div class="content_3">
+			<div class="content_3_item_1">
+				<div class="image_1_item_1">
+					<img src="Images/founded.jpeg" alt="Image_1">
+				</div>
+
+				<div class="text_1_item_1">
+					<h1>Founded</h1>
+					<p id="p_3_1">The DARME Shop was founded in September of 2021 to serve to find the best electronics in the world to make you happy.</p>
+					<p id="p_3_2">The Club was established under the name ELShop, but later on, it was renamed into a DARME Shop at the beginning of the month October.</p>
+				</div>
+			</div>
+
+			<div class="content_3_item_2">
+				<div class="text_1_item_2">
+					<h1>Developed</h1>
+					<p id="p_3_3">When we started our shop we focused to Almaty. Nowadays we are going to deploy our shop in every city of Kazakhstan.</p>
+					<p id="p_3_4">Its successor, officially opened in 2021. Our shop is still being the best electronic shop in our region.</p>
+				</div>
+
+				<div class="image_1_item_2">
+					<img src="Images/developed.jpeg" alt="Image_2">
+				</div>
+			</div>
+
+			<div class="content_3_item_3">
+				<div class="image_1_item_3">
+					<img src="Images/thebest.jpeg" alt="Image_3">
+				</div>
+
+				<div class="text_1_item_3">
+					<h1>The Best</h1>
+					<p id="p_3_5">Today, we are one of the premier electronic shop, with an emphasis on people participation, the development of our junior products, and a special attitude toward excellence in electronic.</p>
+					<p id="p_3_6">Since the merger of the DARME with the best electronic companies, the Shop has organized saling for each season.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="content_4">
+			<div class="testimonials">
+				<p id="testimonials_text">testimonials</p>
+				<hr>
+				<h1 id="testimonials_h1">What Clients Say</h1>
+				<div class="what_clients_say">
+					<div class="quotation_mark">"</div>
+					<p id="speech">Very friendly and welcoming. The electronics are very good. This commitment gives you the best choices by your preference. I actually buy products from this commitment and offer you to do as me too. I want to thank for everything that this commitment is doing.</p>
+					<p id="name_speech">nursultan aden</p>
+					<p id="profession_speech">Customer Client</p>
+				</div>
+			</div>
+
+			<div class="team_members">
+				<p id="team_members_text">team members</p>
+				<hr>
+				<h1 id="team_members_h1">Meet Our Team</h1>
+				<div class="team_members_people">
+					<div class="people_1">
+						<img id="people_1_image" src="https://template65290.motopreview.com/mt-demo/65200/65290/mt-content/uploads/2017/11/mt-1236-team-img01.jpg" alt="people_1" width="280px">
+						<p id="people_1_name">Miras Tilegenov</p>
+						<p id="people_1_profession">Member</p>
+					</div>
+					<div class="people_2">
+						<img id="people_2_image" src="Images/member2.jpg" alt="people_2" width="280px" height="348px">
+						<p id="people_2_name">Dana Abilkaiyr</p>
+						<p id="people_2_profession">Member</p>
+					</div>
+					<div class="people_3">
+						<img id="people_3_image" src="Images/member3.jpg" alt="people_3" width="280px">
+						<p id="people_3_name">Rufina Saiputulina</p>
+						<p id="people_3_profession">Member</p>
+					</div>
+					<div class="people_4">
+						<img id="people_4_image" src="Images/member4.jpg" alt="people_4" width="280px" height="348px">
+						<p id="people_4_name">Adilet Zhakenger</p>
+						<p id="people_4_profession">Member</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="logo_footer">
+			<div class="logo_image_footer">
+			<a><img src="Images/DARME.png" alt="logo_image" width="100px"></a>
+		</div>
+		<!-- <div class="logo_text_footer">
+			<h1><a>DARME</a></h1>
+			<p><a>Better With Us</a></p>
+		</div> -->
+		</div>
+
+		<div class="column_1_footer">
+			<a href="condition.html" style="text-decoration: none; color: #F0F0F0"><div>Home</div></a>
+			<a href="Electronics.html" style="text-decoration: none; color: #F0F0F0"><div>Electronics</div></a>
+			<a href="Mobile_Phones.html" style="text-decoration: none; color: #F0F0F0;"><div>Mobile Phones</div></a>
+			<a href="laptop.html" style="text-decoration: none; color: #F0F0F0;"><div>Laptops</div></a>
+			<a href="accessories.html" style="text-decoration: none; color: #F0F0F0;"><div>Accessories</div></a>
+		</div>
+
+		<div class="column_2_footer">
+			<div id="darme_footer">DARME</div>
+			<a href="About_Us.html" style="text-decoration: none; color: #F0F0F0;"><div>About us</div></a>
+			<a href="Contact_Us.html" style="text-decoration: none; color: #F0F0F0;"><div>Contact us</div></a>
+			<a href="Feedback.html" style="text-decoration: none; color: #F0F0F0;"><div>Feedback</div></a>
+		</div>
+
+		<div class="column_3_footer">
+			<div class="column_3_div12">address</div>
+			<p>Almaty, Kazakhstan</p>
+			<div class="column_3_div12">phone</div>
+			<p>+7 747 343 31 70</p>
+			<div class="column_3_div12">email</div>
+			<p>darmetech.gmail.com</p>
+		</div>
+
+		<div class="copyright_footer">
+			<div>© 2021 DARME <a href="#" style="text-decoration: none;">Privacy Policy</a></div>
+		</div>
+	</div>
+
+	<script src="About_Us.js"></script>
+</body>
+</html>
